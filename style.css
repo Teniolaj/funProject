@@ -1,0 +1,47 @@
+body {
+    /* margin: 0; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+container {
+    background-color: lightblue;
+    border-radius: 5px;
+    border: 2px solid black;
+    height: 40vh;
+    width: 60vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+span {
+    font-size: 4rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+section {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+    padding: 3rem;
+    grid-template-columns: auto auto auto;
+    column-gap: 2rem;
+}
+
+button {
+    padding: .5rem 2rem;
+    border-radius: 5px;
+    cursor: pointer;
+    border: 1px solid black;
+    font-weight: bold;
+}
+
+button:active {
+    scale: .98;
+}
